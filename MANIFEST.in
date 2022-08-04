@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+include pyproject.toml
+recursive-include custom_component *.pyx *.pxd
+recursive-exclude custom_component *.cpp
